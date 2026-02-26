@@ -1,0 +1,14 @@
+D:\Repositories\tourist\target\wasm32-unknown-unknown\debug\deps\serde-31929e53d757328e.d: C:\Users\nural\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\nural\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\nural\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\nural\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\nural\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs D:\Repositories\tourist\target\wasm32-unknown-unknown\debug\build\serde-ca733806d85138be\out/private.rs
+
+D:\Repositories\tourist\target\wasm32-unknown-unknown\debug\deps\libserde-31929e53d757328e.rlib: C:\Users\nural\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\nural\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\nural\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\nural\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\nural\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs D:\Repositories\tourist\target\wasm32-unknown-unknown\debug\build\serde-ca733806d85138be\out/private.rs
+
+D:\Repositories\tourist\target\wasm32-unknown-unknown\debug\deps\libserde-31929e53d757328e.rmeta: C:\Users\nural\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\nural\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\nural\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\nural\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\nural\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs D:\Repositories\tourist\target\wasm32-unknown-unknown\debug\build\serde-ca733806d85138be\out/private.rs
+
+C:\Users\nural\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs:
+C:\Users\nural\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs:
+C:\Users\nural\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs:
+C:\Users\nural\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs:
+C:\Users\nural\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs:
+D:\Repositories\tourist\target\wasm32-unknown-unknown\debug\build\serde-ca733806d85138be\out/private.rs:
+
+# env-dep:OUT_DIR=D:\\Repositories\\tourist\\target\\wasm32-unknown-unknown\\debug\\build\\serde-ca733806d85138be\\out

@@ -1,0 +1,340 @@
+2026-02-26T23:05:24.247100Z  INFO Starting trunk 0.18.6
+2026-02-26T23:05:24.330284Z  INFO starting build
+2026-02-26T23:05:24.330905Z  INFO spawning asset pipelines
+2026-02-26T23:05:24.552586Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:24.552613Z  INFO building tourist
+2026-02-26T23:05:24.554913Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+   Compiling tourist v0.1.0 (D:\Repositories\tourist)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.91s
+2026-02-26T23:05:26.555877Z  INFO fetching cargo artifacts
+2026-02-26T23:05:26.809855Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:26.971706Z  INFO rust build complete
+2026-02-26T23:05:26.973844Z  INFO applying new distribution
+2026-02-26T23:05:26.976047Z  INFO success
+2026-02-26T23:05:26.983924Z  INFO serving static assets at -> /
+2026-02-26T23:05:26.983951Z  INFO server listening at http://127.0.0.1:8080
+2026-02-26T23:05:26.984427Z  INFO starting build
+2026-02-26T23:05:26.984871Z  INFO spawning asset pipelines
+2026-02-26T23:05:27.166662Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:27.166682Z  INFO building tourist
+2026-02-26T23:05:27.168324Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.11s
+2026-02-26T23:05:27.372316Z  INFO fetching cargo artifacts
+2026-02-26T23:05:27.608434Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:27.777590Z  INFO rust build complete
+2026-02-26T23:05:27.779791Z  INFO applying new distribution
+2026-02-26T23:05:27.782121Z  INFO success
+2026-02-26T23:05:27.782176Z  INFO starting build
+2026-02-26T23:05:27.782661Z  INFO spawning asset pipelines
+2026-02-26T23:05:27.962398Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:27.962405Z  INFO building tourist
+2026-02-26T23:05:27.963214Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.14s
+2026-02-26T23:05:28.188933Z  INFO fetching cargo artifacts
+2026-02-26T23:05:28.447157Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:28.612801Z  INFO rust build complete
+2026-02-26T23:05:28.614439Z  INFO applying new distribution
+2026-02-26T23:05:28.616284Z  INFO success
+2026-02-26T23:05:28.616314Z  INFO starting build
+2026-02-26T23:05:28.616842Z  INFO spawning asset pipelines
+2026-02-26T23:05:28.824441Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:28.824458Z  INFO building tourist
+2026-02-26T23:05:28.829816Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.12s
+2026-02-26T23:05:29.023776Z  INFO fetching cargo artifacts
+2026-02-26T23:05:29.287059Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:29.446721Z  INFO rust build complete
+2026-02-26T23:05:29.448457Z  INFO applying new distribution
+2026-02-26T23:05:29.450618Z  INFO success
+2026-02-26T23:05:29.450664Z  INFO starting build
+2026-02-26T23:05:29.451031Z  INFO spawning asset pipelines
+2026-02-26T23:05:29.735971Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:29.735981Z  INFO building tourist
+2026-02-26T23:05:29.736778Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.15s
+2026-02-26T23:05:29.970292Z  INFO fetching cargo artifacts
+2026-02-26T23:05:30.307076Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:30.492844Z  INFO rust build complete
+2026-02-26T23:05:30.494609Z  INFO applying new distribution
+2026-02-26T23:05:30.496888Z  INFO success
+2026-02-26T23:05:30.496951Z  INFO starting build
+2026-02-26T23:05:30.497398Z  INFO spawning asset pipelines
+2026-02-26T23:05:30.722988Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:30.722996Z  INFO building tourist
+2026-02-26T23:05:30.723661Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.12s
+2026-02-26T23:05:30.923897Z  INFO fetching cargo artifacts
+2026-02-26T23:05:31.143641Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:31.297257Z  INFO rust build complete
+2026-02-26T23:05:31.299087Z  INFO applying new distribution
+2026-02-26T23:05:31.301329Z  INFO success
+2026-02-26T23:05:31.301363Z  INFO starting build
+2026-02-26T23:05:31.301792Z  INFO spawning asset pipelines
+2026-02-26T23:05:31.458250Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:31.458287Z  INFO building tourist
+2026-02-26T23:05:31.458799Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.12s
+2026-02-26T23:05:31.658869Z  INFO fetching cargo artifacts
+2026-02-26T23:05:31.894968Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:32.046863Z  INFO rust build complete
+2026-02-26T23:05:32.048422Z  INFO applying new distribution
+2026-02-26T23:05:32.050747Z  INFO success
+2026-02-26T23:05:32.050787Z  INFO starting build
+2026-02-26T23:05:32.051159Z  INFO spawning asset pipelines
+2026-02-26T23:05:32.225139Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:32.225161Z  INFO building tourist
+2026-02-26T23:05:32.225986Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.13s
+2026-02-26T23:05:32.440769Z  INFO fetching cargo artifacts
+2026-02-26T23:05:32.673445Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:32.851801Z  INFO rust build complete
+2026-02-26T23:05:32.853741Z  INFO applying new distribution
+2026-02-26T23:05:32.855550Z  INFO success
+2026-02-26T23:05:32.855576Z  INFO starting build
+2026-02-26T23:05:32.855850Z  INFO spawning asset pipelines
+2026-02-26T23:05:33.007155Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:33.007168Z  INFO building tourist
+2026-02-26T23:05:33.007695Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.16s
+2026-02-26T23:05:33.258478Z  INFO fetching cargo artifacts
+2026-02-26T23:05:33.505944Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:33.739204Z  INFO rust build complete
+2026-02-26T23:05:33.740814Z  INFO applying new distribution
+2026-02-26T23:05:33.742846Z  INFO success
+2026-02-26T23:05:33.742879Z  INFO starting build
+2026-02-26T23:05:33.743229Z  INFO spawning asset pipelines
+2026-02-26T23:05:33.914671Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:33.914690Z  INFO building tourist
+2026-02-26T23:05:33.917803Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.19s
+2026-02-26T23:05:34.205291Z  INFO fetching cargo artifacts
+2026-02-26T23:05:34.425434Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:34.626884Z  INFO rust build complete
+2026-02-26T23:05:34.628386Z  INFO applying new distribution
+2026-02-26T23:05:34.647153Z  INFO success
+2026-02-26T23:05:34.647208Z  INFO starting build
+2026-02-26T23:05:34.647802Z  INFO spawning asset pipelines
+2026-02-26T23:05:34.855775Z  INFO building tourist
+2026-02-26T23:05:34.855763Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:34.856803Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.14s
+2026-02-26T23:05:35.095519Z  INFO fetching cargo artifacts
+2026-02-26T23:05:35.400956Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:35.556214Z  INFO rust build complete
+2026-02-26T23:05:35.558708Z  INFO applying new distribution
+2026-02-26T23:05:35.560687Z  INFO success
+2026-02-26T23:05:35.560716Z  INFO starting build
+2026-02-26T23:05:35.561093Z  INFO spawning asset pipelines
+2026-02-26T23:05:35.730519Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:35.730530Z  INFO building tourist
+2026-02-26T23:05:35.731382Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.15s
+2026-02-26T23:05:35.969436Z  INFO fetching cargo artifacts
+2026-02-26T23:05:36.215122Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:36.382521Z  INFO rust build complete
+2026-02-26T23:05:36.384564Z  INFO applying new distribution
+2026-02-26T23:05:36.386875Z  INFO success
+2026-02-26T23:05:36.386915Z  INFO starting build
+2026-02-26T23:05:36.387294Z  INFO spawning asset pipelines
+2026-02-26T23:05:36.606314Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:36.606327Z  INFO building tourist
+2026-02-26T23:05:36.606908Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.12s
+2026-02-26T23:05:36.815343Z  INFO fetching cargo artifacts
+2026-02-26T23:05:37.052191Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:37.294484Z  INFO rust build complete
+2026-02-26T23:05:37.296835Z  INFO applying new distribution
+2026-02-26T23:05:37.299474Z  INFO success
+2026-02-26T23:05:37.299525Z  INFO starting build
+2026-02-26T23:05:37.299947Z  INFO spawning asset pipelines
+2026-02-26T23:05:37.495076Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:37.495105Z  INFO building tourist
+2026-02-26T23:05:37.495820Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.16s
+2026-02-26T23:05:37.766861Z  INFO fetching cargo artifacts
+2026-02-26T23:05:38.036241Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:38.246361Z  INFO rust build complete
+2026-02-26T23:05:38.249800Z  INFO applying new distribution
+2026-02-26T23:05:38.252331Z  INFO success
+2026-02-26T23:05:38.252380Z  INFO starting build
+2026-02-26T23:05:38.252816Z  INFO spawning asset pipelines
+2026-02-26T23:05:38.476841Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:38.476851Z  INFO building tourist
+2026-02-26T23:05:38.477583Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.19s
+2026-02-26T23:05:38.779325Z  INFO fetching cargo artifacts
+2026-02-26T23:05:39.085620Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:39.299206Z  INFO rust build complete
+2026-02-26T23:05:39.302230Z  INFO applying new distribution
+2026-02-26T23:05:39.304539Z  INFO success
+2026-02-26T23:05:39.304587Z  INFO starting build
+2026-02-26T23:05:39.305008Z  INFO spawning asset pipelines
+2026-02-26T23:05:39.524984Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:39.525003Z  INFO building tourist
+2026-02-26T23:05:39.525937Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.14s
+2026-02-26T23:05:39.762146Z  INFO fetching cargo artifacts
+2026-02-26T23:05:40.031838Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:40.239837Z  INFO rust build complete
+2026-02-26T23:05:40.241834Z  INFO applying new distribution
+2026-02-26T23:05:40.243964Z  INFO success
+2026-02-26T23:05:40.244002Z  INFO starting build
+2026-02-26T23:05:40.244392Z  INFO spawning asset pipelines
+2026-02-26T23:05:40.438608Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:40.438625Z  INFO building tourist
+2026-02-26T23:05:40.439414Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.17s
+2026-02-26T23:05:40.709081Z  INFO fetching cargo artifacts
+2026-02-26T23:05:41.060943Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:41.284815Z  INFO rust build complete
+2026-02-26T23:05:41.286861Z  INFO applying new distribution
+2026-02-26T23:05:41.289240Z  INFO success
+2026-02-26T23:05:41.289291Z  INFO starting build
+2026-02-26T23:05:41.289690Z  INFO spawning asset pipelines
+2026-02-26T23:05:41.516155Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:41.516173Z  INFO building tourist
+2026-02-26T23:05:41.516923Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.21s
+2026-02-26T23:05:41.845960Z  INFO fetching cargo artifacts
+2026-02-26T23:05:42.164294Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:42.357852Z  INFO rust build complete
+2026-02-26T23:05:42.360493Z  INFO applying new distribution
+2026-02-26T23:05:42.362837Z  INFO success
+2026-02-26T23:05:42.362875Z  INFO starting build
+2026-02-26T23:05:42.363314Z  INFO spawning asset pipelines
+2026-02-26T23:05:42.642325Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:42.642341Z  INFO building tourist
+2026-02-26T23:05:42.643135Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.18s
+2026-02-26T23:05:42.950253Z  INFO fetching cargo artifacts
+2026-02-26T23:05:43.260402Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:43.483174Z  INFO rust build complete
+2026-02-26T23:05:43.485271Z  INFO applying new distribution
+2026-02-26T23:05:43.487313Z  INFO success
+2026-02-26T23:05:43.487353Z  INFO starting build
+2026-02-26T23:05:43.487734Z  INFO spawning asset pipelines
+2026-02-26T23:05:43.737126Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:43.737138Z  INFO building tourist
+2026-02-26T23:05:43.737979Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.19s
+2026-02-26T23:05:44.045906Z  INFO fetching cargo artifacts
+2026-02-26T23:05:44.408580Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:44.725212Z  INFO rust build complete
+2026-02-26T23:05:44.728525Z  INFO applying new distribution
+2026-02-26T23:05:44.731520Z  INFO success
+2026-02-26T23:05:44.731587Z  INFO starting build
+2026-02-26T23:05:44.732481Z  INFO spawning asset pipelines
+2026-02-26T23:05:45.016700Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:45.016722Z  INFO building tourist
+2026-02-26T23:05:45.017497Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.18s
+2026-02-26T23:05:45.307702Z  INFO fetching cargo artifacts
+2026-02-26T23:05:45.644864Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:45.850705Z  INFO rust build complete
+2026-02-26T23:05:45.852903Z  INFO applying new distribution
+2026-02-26T23:05:45.854985Z  INFO success
+2026-02-26T23:05:45.855028Z  INFO starting build
+2026-02-26T23:05:45.855357Z  INFO spawning asset pipelines
+2026-02-26T23:05:46.123611Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:46.123623Z  INFO building tourist
+2026-02-26T23:05:46.124598Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.20s
+2026-02-26T23:05:46.443113Z  INFO fetching cargo artifacts
+2026-02-26T23:05:46.778431Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:47.001615Z  INFO rust build complete
+2026-02-26T23:05:47.004006Z  INFO applying new distribution
+2026-02-26T23:05:47.006299Z  INFO success
+2026-02-26T23:05:47.006341Z  INFO starting build
+2026-02-26T23:05:47.006762Z  INFO spawning asset pipelines
+2026-02-26T23:05:47.246321Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:47.246334Z  INFO building tourist
+2026-02-26T23:05:47.247732Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.21s
+2026-02-26T23:05:47.591745Z  INFO fetching cargo artifacts
+2026-02-26T23:05:47.927282Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:48.121243Z  INFO rust build complete
+2026-02-26T23:05:48.123296Z  INFO applying new distribution
+2026-02-26T23:05:48.125646Z  INFO success
+2026-02-26T23:05:48.125695Z  INFO starting build
+2026-02-26T23:05:48.126095Z  INFO spawning asset pipelines
+2026-02-26T23:05:48.333667Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:48.333687Z  INFO building tourist
+2026-02-26T23:05:48.334521Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.19s
+2026-02-26T23:05:48.631754Z  INFO fetching cargo artifacts
+2026-02-26T23:05:48.967793Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:49.179235Z  INFO rust build complete
+2026-02-26T23:05:49.182589Z  INFO applying new distribution
+2026-02-26T23:05:49.185424Z  INFO success
+2026-02-26T23:05:49.185513Z  INFO starting build
+2026-02-26T23:05:49.186069Z  INFO spawning asset pipelines
+2026-02-26T23:05:49.425455Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:49.425469Z  INFO building tourist
+2026-02-26T23:05:49.426242Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.16s
+2026-02-26T23:05:49.700318Z  INFO fetching cargo artifacts
+2026-02-26T23:05:49.950460Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:50.132963Z  INFO rust build complete
+2026-02-26T23:05:50.134934Z  INFO applying new distribution
+2026-02-26T23:05:50.137243Z  INFO success
+2026-02-26T23:05:50.137300Z  INFO starting build
+2026-02-26T23:05:50.137748Z  INFO spawning asset pipelines
+2026-02-26T23:05:50.352682Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:50.352695Z  INFO building tourist
+2026-02-26T23:05:50.353427Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.16s
+2026-02-26T23:05:50.632921Z  INFO fetching cargo artifacts
+2026-02-26T23:05:50.950419Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:51.132474Z  INFO rust build complete
+2026-02-26T23:05:51.135095Z  INFO applying new distribution
+2026-02-26T23:05:51.137598Z  INFO success
+2026-02-26T23:05:51.137668Z  INFO starting build
+2026-02-26T23:05:51.138139Z  INFO spawning asset pipelines
+2026-02-26T23:05:51.337805Z  INFO building tourist
+2026-02-26T23:05:51.337794Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:51.338542Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.14s
+2026-02-26T23:05:51.565257Z  INFO fetching cargo artifacts
+2026-02-26T23:05:51.805194Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:51.953911Z  INFO rust build complete
+2026-02-26T23:05:51.955785Z  INFO applying new distribution
+2026-02-26T23:05:51.958053Z  INFO success
+2026-02-26T23:05:51.958089Z  INFO starting build
+2026-02-26T23:05:51.958499Z  INFO spawning asset pipelines
+2026-02-26T23:05:52.133312Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:52.133322Z  INFO building tourist
+2026-02-26T23:05:52.134079Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.13s
+2026-02-26T23:05:52.356717Z  INFO fetching cargo artifacts
+2026-02-26T23:05:52.603907Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:52.764230Z  INFO rust build complete
+2026-02-26T23:05:52.766122Z  INFO applying new distribution
+2026-02-26T23:05:52.768324Z  INFO success
+2026-02-26T23:05:52.768363Z  INFO starting build
+2026-02-26T23:05:52.768762Z  INFO spawning asset pipelines
+2026-02-26T23:05:52.939570Z  INFO building tourist
+2026-02-26T23:05:52.939565Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:52.940368Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.14s
+2026-02-26T23:05:53.164757Z  INFO fetching cargo artifacts
+2026-02-26T23:05:53.402714Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:53.560787Z  INFO rust build complete
+2026-02-26T23:05:53.563123Z  INFO applying new distribution
+2026-02-26T23:05:53.565243Z  INFO success
+2026-02-26T23:05:53.565273Z  INFO starting build
+2026-02-26T23:05:53.565637Z  INFO spawning asset pipelines
+2026-02-26T23:05:53.752483Z  INFO building tourist
+2026-02-26T23:05:53.752472Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:53.753270Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.15s
+2026-02-26T23:05:53.989380Z  INFO fetching cargo artifacts
+2026-02-26T23:05:54.285971Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:05:54.438791Z  INFO rust build complete
+2026-02-26T23:05:54.440536Z  INFO applying new distribution
+2026-02-26T23:05:54.442721Z  INFO success
+2026-02-26T23:05:54.442780Z  INFO starting build
+2026-02-26T23:05:54.443264Z  INFO spawning asset pipelines
+2026-02-26T23:05:54.608989Z  INFO building tourist
+2026-02-26T23:05:54.608974Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:05:54.609715Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.16s

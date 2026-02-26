@@ -1,0 +1,58 @@
+2026-02-26T23:06:28.167293Z  INFO Starting trunk 0.18.6
+2026-02-26T23:06:28.177982Z  INFO starting build
+2026-02-26T23:06:28.182978Z  INFO spawning asset pipelines
+2026-02-26T23:06:28.480941Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:06:28.480957Z  INFO building tourist
+2026-02-26T23:06:28.481770Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.14s
+2026-02-26T23:06:28.748125Z  INFO fetching cargo artifacts
+2026-02-26T23:06:29.069877Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:06:29.333866Z  INFO rust build complete
+2026-02-26T23:06:29.336223Z  INFO applying new distribution
+2026-02-26T23:06:29.338717Z  INFO success
+2026-02-26T23:06:29.347506Z  INFO serving static assets at -> /
+2026-02-26T23:06:29.347538Z  INFO server listening at http://127.0.0.1:8080
+2026-02-26T23:12:02.685961Z  INFO starting build
+2026-02-26T23:12:02.686570Z  INFO spawning asset pipelines
+2026-02-26T23:12:02.987443Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:12:02.987471Z  INFO building tourist
+2026-02-26T23:12:02.987947Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\paris.png"
+2026-02-26T23:12:02.988038Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\milan.png"
+2026-02-26T23:12:02.988119Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\amsterdam.png"
+2026-02-26T23:12:02.988205Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\brussels.png"
+2026-02-26T23:12:02.988201Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\istanbul.png"
+2026-02-26T23:12:02.988518Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:12:02.992662Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\paris.png"
+2026-02-26T23:12:02.992976Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\amsterdam.png"
+2026-02-26T23:12:02.993415Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\milan.png"
+2026-02-26T23:12:02.993545Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\brussels.png"
+2026-02-26T23:12:02.993702Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\istanbul.png"
+   Compiling tourist v0.1.0 (D:\Repositories\tourist)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.22s
+2026-02-26T23:12:05.333776Z  INFO fetching cargo artifacts
+2026-02-26T23:12:05.701812Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:12:05.979970Z  INFO rust build complete
+2026-02-26T23:12:05.982761Z  INFO applying new distribution
+2026-02-26T23:12:05.986941Z  INFO success
+2026-02-26T23:18:29.120889Z  INFO starting build
+2026-02-26T23:18:29.121435Z  INFO spawning asset pipelines
+2026-02-26T23:18:29.378439Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\paris.png"
+2026-02-26T23:18:29.378484Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\amsterdam.png"
+2026-02-26T23:18:29.378482Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\brussels.png"
+2026-02-26T23:18:29.378498Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\milan.png"
+2026-02-26T23:18:29.378514Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\istanbul.png"
+2026-02-26T23:18:29.378534Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:18:29.378550Z  INFO building tourist
+2026-02-26T23:18:29.381008Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:18:29.381002Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\amsterdam.png"
+2026-02-26T23:18:29.381315Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\paris.png"
+2026-02-26T23:18:29.382286Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\milan.png"
+2026-02-26T23:18:29.382745Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\brussels.png"
+2026-02-26T23:18:29.382940Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\istanbul.png"
+   Compiling tourist v0.1.0 (D:\Repositories\tourist)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.60s
+2026-02-26T23:18:31.057058Z  INFO fetching cargo artifacts
+2026-02-26T23:18:31.332740Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:18:31.508651Z  INFO rust build complete
+2026-02-26T23:18:31.510175Z  INFO applying new distribution
+2026-02-26T23:18:31.524429Z  INFO success
