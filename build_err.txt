@@ -1,0 +1,8 @@
+    Checking tourist v0.1.0 (D:\Repositories\tourist)
+error: `class` can only be specified once but is given here again
+   --> src\main.rs:238:44
+    |
+238 |             <div class="booking-container" class="booking-info-desktop">
+    |                                            ^^^^^
+
+error: could not compile `tourist` (bin "tourist") due to 1 previous error

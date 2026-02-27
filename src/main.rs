@@ -7,6 +7,9 @@ fn app() -> Html {
             { hero_section() }
             { overview_section() }
             { destinations_section() }
+            { gallery_section() }
+            { itinerary_section() }
+            { included_section() }
             { booking_section() }
         </main>
     }
@@ -42,7 +45,7 @@ fn overview_section() -> Html {
                 { "Хотите увидеть главные жемчужины Европы и окунуться в восточную сказку? У нас есть маршрут вашей мечты!" }
             </p>
             
-            <div class="glass-panel">
+            <div class="overview-grid">
                 <div class="highlight-box">
                     <div class="highlight-icon"><i class="fa-solid fa-map-location-dot"></i></div>
                     <div>
@@ -55,6 +58,13 @@ fn overview_section() -> Html {
                     <div>
                         <h3 class="gold-text">{ "Трансфер включен" }</h3>
                         <p class="text-xs" style="color: var(--text-muted);">{ "Вылет и прилет из Астаны" }</p>
+                    </div>
+                </div>
+                <div class="highlight-box">
+                    <div class="highlight-icon"><i class="fa-solid fa-hotel"></i></div>
+                    <div>
+                        <h3 class="gold-text">{ "Проживание" }</h3>
+                        <p class="text-xs" style="color: var(--text-muted);">{ "Отели 3-4 звезды с завтраками" }</p>
                     </div>
                 </div>
             </div>
@@ -107,7 +117,7 @@ fn destinations_section() -> Html {
         <section class="destinations-section">
             <h2 class="section-title gradient-text">{ "Незабываемые локации" }</h2>
             
-            <div class="destinations-list">
+            <div class="destinations-grid">
                 {
                     destinations.into_iter().map(|dest| {
                         html! {
@@ -130,27 +140,123 @@ fn destinations_section() -> Html {
     }
 }
 
+fn gallery_section() -> Html {
+    let images = vec![
+        "/paris.png",
+        "/brussels.png",
+        "/amsterdam.png",
+        "/milan.png",
+        "/istanbul.png",
+    ];
+
+    html! {
+        <section class="gallery-section">
+            <div class="container">
+                <h2 class="section-title gradient-text">{ "Атмосфера путешествия" }</h2>
+                
+                <div class="gallery-grid">
+                    {
+                        images.into_iter().map(|img| {
+                            html! {
+                                <div class="gallery-item">
+                                    <img src={img} alt="Gallery image" />
+                                </div>
+                            }
+                        }).collect::<Html>()
+                    }
+                </div>
+            </div>
+        </section>
+    }
+}
+
+fn itinerary_section() -> Html {
+    html! {
+        <section class="itinerary-section" style="background: var(--bg-darker); padding-top: var(--spacing-xxl); padding-bottom: var(--spacing-xxl);">
+            <div class="container">
+                <h2 class="section-title gradient-text">{ "Анонс программы" }</h2>
+                <div class="glass-panel-gold">
+                    <p style="color: var(--text-muted); margin-bottom: var(--spacing-md);">
+                        <strong class="gold-text">{ "День 1-3: " }</strong> { "Париж. Прилет, размещение, прогулка по Монмартру. Экскурсия по Сене, Эйфелева башня и Лувр. Целый день в Диснейленде!" }
+                    </p>
+                    <p style="color: var(--text-muted); margin-bottom: var(--spacing-md);">
+                        <strong class="gold-text">{ "День 4: " }</strong> { "Брюссель. Переезд во Францию, пешеходная экскурсия по центру, Гран-Плас, знаменитый писающий мальчик и дегустация вафель." }
+                    </p>
+                    <p style="color: var(--text-muted); margin-bottom: var(--spacing-md);">
+                        <strong class="gold-text">{ "День 5-6: " }</strong> { "Амстердам. Каналы, Рейксмюсеум, площадь Дам и свободное время для шопинга." }
+                    </p>
+                    <p style="color: var(--text-muted); margin-bottom: var(--spacing-md);">
+                        <strong class="gold-text">{ "День 7-8: " }</strong> { "Милан. Площадь Дуомо, Галерея Виктора Эммануила II, замок Сфорца. Время для модных бутиков." }
+                    </p>
+                    <p style="color: var(--text-muted);">
+                        <strong class="gold-text">{ "День 9-11: " }</strong> { "Стамбул. Прилет в Турцию. Голубая мечеть, Айя-София, Гранд Базар. Прощальный ужин на Босфоре и вылет домой." }
+                    </p>
+                </div>
+            </div>
+        </section>
+    }
+}
+
+fn included_section() -> Html {
+    html! {
+        <section class="included-section" style="background: var(--bg-dark); padding-top: var(--spacing-xl); padding-bottom: var(--spacing-xxl);">
+            <div class="container grid-2-col">
+                <div class="glass-panel" style="border-top: 3px solid #10b981; margin-bottom: var(--spacing-md);">
+                    <h3 style="color: #10b981; margin-bottom: var(--spacing-md);">
+                        <i class="fa-solid fa-circle-check" style="margin-right: 8px;"></i>
+                        { "Что включено" }
+                    </h3>
+                    <ul style="list-style: none; color: var(--text-muted); padding-left: 0; line-height: 1.8;">
+                        <li><i class="fa-solid fa-check" style="color: #10b981; margin-right: 8px; font-size: 0.8em;"></i>{ "Авиаперелеты (Астана - Европа - Стамбул - Астана)" }</li>
+                        <li><i class="fa-solid fa-check" style="color: #10b981; margin-right: 8px; font-size: 0.8em;"></i>{ "Проживание в отелях 3-4* с завтраками" }</li>
+                        <li><i class="fa-solid fa-check" style="color: #10b981; margin-right: 8px; font-size: 0.8em;"></i>{ "Трансферы между городами по программе" }</li>
+                        <li><i class="fa-solid fa-check" style="color: #10b981; margin-right: 8px; font-size: 0.8em;"></i>{ "Обзорные экскурсии" }</li>
+                        <li><i class="fa-solid fa-check" style="color: #10b981; margin-right: 8px; font-size: 0.8em;"></i>{ "Билет в Диснейленд" }</li>
+                    </ul>
+                </div>
+                
+                <div class="glass-panel" style="border-top: 3px solid #ef4444; margin-bottom: var(--spacing-md);">
+                    <h3 style="color: #ef4444; margin-bottom: var(--spacing-md);">
+                        <i class="fa-solid fa-circle-xmark" style="margin-right: 8px;"></i>
+                        { "Дополнительно оплачивается" }
+                    </h3>
+                    <ul style="list-style: none; color: var(--text-muted); padding-left: 0; line-height: 1.8;">
+                        <li><i class="fa-solid fa-xmark" style="color: #ef4444; margin-right: 8px; font-size: 0.8em;"></i>{ "Оформление Шенгенской визы" }</li>
+                        <li><i class="fa-solid fa-xmark" style="color: #ef4444; margin-right: 8px; font-size: 0.8em;"></i>{ "Медицинская страховка" }</li>
+                        <li><i class="fa-solid fa-xmark" style="color: #ef4444; margin-right: 8px; font-size: 0.8em;"></i>{ "Обеды и ужины" }</li>
+                        <li><i class="fa-solid fa-xmark" style="color: #ef4444; margin-right: 8px; font-size: 0.8em;"></i>{ "Личные расходы и сувениры" }</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    }
+}
+
 fn booking_section() -> Html {
     html! {
         <section id="booking" class="booking-section">
-            <div class="price-box">
-                <div class="price-label">{ "Стоимость тура" }</div>
-                <div class="price-amount">{ "1 390 000 ₸" }</div>
-                <div class="price-person">{ "на одного человека" }</div>
+            <div class="booking-container booking-info-desktop">
+                <div class="price-box">
+                    <div class="price-label">{ "Стоимость тура" }</div>
+                    <div class="price-amount">{ "1 390 000 ₸" }</div>
+                    <div class="price-person">{ "на одного человека" }</div>
+                </div>
+                
+                <p class="mb-lg" style="color: var(--text-main); font-size: 1.1rem;">
+                    { "Количество мест ограничено! Бронируйте свое место в этом невероятном приключении прямо сейчас." }
+                </p>
             </div>
             
-            <p class="mb-lg" style="color: var(--text-main); font-size: 1.1rem;">
-                { "Количество мест ограничено! Бронируйте свое место в этом невероятном приключении прямо сейчас." }
-            </p>
-            
-            <a href="https://wa.me/+77013651063" target="_blank" class="whatsapp-button">
-                <i class="fa-brands fa-whatsapp whatsapp-icon"></i>
-                { "Написать в WhatsApp" }
-            </a>
-            
-            <div class="scarcity-text">
-                <i class="fa-solid fa-fire" style="color: #ef4444;"></i>
-                { "Осталось мало мест" }
+            <div class="booking-action-desktop">
+                <a href="https://wa.me/+77013651063" target="_blank" class="whatsapp-button">
+                    <i class="fa-brands fa-whatsapp whatsapp-icon"></i>
+                    { "Написать в WhatsApp" }
+                </a>
+                
+                <div class="scarcity-text">
+                    <i class="fa-solid fa-fire" style="color: #ef4444;"></i>
+                    { "Осталось мало мест" }
+                </div>
             </div>
         </section>
     }
