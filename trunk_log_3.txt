@@ -56,3 +56,160 @@
 2026-02-26T23:18:31.508651Z  INFO rust build complete
 2026-02-26T23:18:31.510175Z  INFO applying new distribution
 2026-02-26T23:18:31.524429Z  INFO success
+2026-02-26T23:59:07.292764Z  INFO starting build
+2026-02-26T23:59:07.293392Z  INFO spawning asset pipelines
+2026-02-26T23:59:07.544144Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\paris.png"
+2026-02-26T23:59:07.544184Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\brussels.png"
+2026-02-26T23:59:07.544286Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\milan.png"
+2026-02-26T23:59:07.544289Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\amsterdam.png"
+2026-02-26T23:59:07.544320Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\istanbul.png"
+2026-02-26T23:59:07.544390Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:59:07.544445Z  INFO building tourist
+2026-02-26T23:59:07.545589Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:59:07.548078Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\paris.png"
+2026-02-26T23:59:07.548521Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\brussels.png"
+2026-02-26T23:59:07.548805Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\amsterdam.png"
+2026-02-26T23:59:07.549104Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\istanbul.png"
+2026-02-26T23:59:07.549182Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\milan.png"
+   Compiling tourist v0.1.0 (D:\Repositories\tourist)
+error[E0425]: cannot find function `itinerary_section` in this scope
+  --> src\main.rs:10:15
+   |
+10 |             { itinerary_section() }
+   |               ^^^^^^^^^^^^^^^^^ not found in this scope
+
+error[E0425]: cannot find function `included_section` in this scope
+  --> src\main.rs:11:15
+   |
+11 |             { included_section() }
+   |               ^^^^^^^^^^^^^^^^ not found in this scope
+
+For more information about this error, try `rustc --explain E0425`.
+error: could not compile `tourist` (bin "tourist") due to 2 previous errors
+2026-02-26T23:59:08.764122Z ERROR error
+error from build pipeline
+
+Caused by:
+    0: HTML build pipeline failed (1 errors), showing first
+    1: error from asset pipeline
+    2: error during cargo build execution
+    3: cargo call to executable 'cargo' with args: '["build", "--target=wasm32-unknown-unknown", "--manifest-path", "D:\\Repositories\\tourist\\Cargo.toml"]' returned a bad status: exit code: 101
+2026-02-26T23:59:36.035166Z  INFO starting build
+2026-02-26T23:59:36.037450Z  INFO spawning asset pipelines
+2026-02-26T23:59:36.229489Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\paris.png"
+2026-02-26T23:59:36.229508Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\brussels.png"
+2026-02-26T23:59:36.229536Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\amsterdam.png"
+2026-02-26T23:59:36.229583Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\milan.png"
+2026-02-26T23:59:36.229555Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\istanbul.png"
+2026-02-26T23:59:36.229667Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:59:36.229751Z  INFO building tourist
+2026-02-26T23:59:36.232256Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\paris.png"
+2026-02-26T23:59:36.232635Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\amsterdam.png"
+2026-02-26T23:59:36.232799Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-26T23:59:36.233077Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\brussels.png"
+2026-02-26T23:59:36.233191Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\milan.png"
+2026-02-26T23:59:36.233572Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\istanbul.png"
+   Compiling tourist v0.1.0 (D:\Repositories\tourist)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.26s
+2026-02-26T23:59:37.584093Z  INFO fetching cargo artifacts
+2026-02-26T23:59:37.903602Z  INFO calling wasm-bindgen for tourist
+2026-02-26T23:59:38.084717Z  INFO rust build complete
+2026-02-26T23:59:38.086495Z  INFO applying new distribution
+2026-02-26T23:59:38.116404Z  INFO success
+2026-02-27T00:00:29.916230Z  INFO starting build
+2026-02-27T00:00:29.916771Z  INFO spawning asset pipelines
+2026-02-27T00:00:30.134536Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\paris.png"
+2026-02-27T00:00:30.134590Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\milan.png"
+2026-02-27T00:00:30.134557Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\brussels.png"
+2026-02-27T00:00:30.134632Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-27T00:00:30.134604Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\amsterdam.png"
+2026-02-27T00:00:30.134616Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\istanbul.png"
+2026-02-27T00:00:30.134690Z  INFO building tourist
+2026-02-27T00:00:30.135837Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-27T00:00:30.136799Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\paris.png"
+2026-02-27T00:00:30.137496Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\milan.png"
+2026-02-27T00:00:30.137804Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\brussels.png"
+2026-02-27T00:00:30.137901Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\amsterdam.png"
+2026-02-27T00:00:30.137984Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\istanbul.png"
+   Compiling tourist v0.1.0 (D:\Repositories\tourist)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.19s
+2026-02-27T00:00:31.418434Z  INFO fetching cargo artifacts
+2026-02-27T00:00:31.708644Z  INFO calling wasm-bindgen for tourist
+2026-02-27T00:00:31.889846Z  INFO rust build complete
+2026-02-27T00:00:31.891348Z  INFO applying new distribution
+2026-02-27T00:00:31.895608Z  INFO success
+2026-02-27T00:01:04.624280Z  INFO starting build
+2026-02-27T00:01:04.624778Z  INFO spawning asset pipelines
+2026-02-27T00:01:04.787826Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\paris.png"
+2026-02-27T00:01:04.787853Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\brussels.png"
+2026-02-27T00:01:04.787931Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\milan.png"
+2026-02-27T00:01:04.787932Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\amsterdam.png"
+2026-02-27T00:01:04.787944Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\istanbul.png"
+2026-02-27T00:01:04.787956Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-27T00:01:04.787975Z  INFO building tourist
+2026-02-27T00:01:04.788984Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-27T00:01:04.789726Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\paris.png"
+2026-02-27T00:01:04.789898Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\milan.png"
+2026-02-27T00:01:04.790441Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\brussels.png"
+2026-02-27T00:01:04.790555Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\istanbul.png"
+2026-02-27T00:01:04.790683Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\amsterdam.png"
+   Compiling tourist v0.1.0 (D:\Repositories\tourist)
+error: `class` can only be specified once but is given here again
+   --> src\main.rs:238:44
+    |
+238 |             <div class="booking-container" class="booking-info-desktop">
+    |                                            ^^^^^
+
+error: could not compile `tourist` (bin "tourist") due to 1 previous error
+2026-02-27T00:01:05.258498Z ERROR error
+error from build pipeline
+
+Caused by:
+    0: HTML build pipeline failed (1 errors), showing first
+    1: error from asset pipeline
+    2: error during cargo build execution
+    3: cargo call to executable 'cargo' with args: '["build", "--target=wasm32-unknown-unknown", "--manifest-path", "D:\\Repositories\\tourist\\Cargo.toml"]' returned a bad status: exit code: 101
+2026-02-27T00:05:50.768289Z  INFO starting build
+2026-02-27T00:05:50.772034Z  INFO spawning asset pipelines
+2026-02-27T00:05:50.960022Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\brussels.png"
+2026-02-27T00:05:50.960014Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\paris.png"
+2026-02-27T00:05:50.960076Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\amsterdam.png"
+2026-02-27T00:05:50.960090Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\milan.png"
+2026-02-27T00:05:50.960103Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\istanbul.png"
+2026-02-27T00:05:50.960124Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-27T00:05:50.960143Z  INFO building tourist
+2026-02-27T00:05:50.961468Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-27T00:05:50.962161Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\brussels.png"
+2026-02-27T00:05:50.962333Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\paris.png"
+2026-02-27T00:05:50.962773Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\istanbul.png"
+2026-02-27T00:05:50.962889Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\amsterdam.png"
+2026-02-27T00:05:50.963000Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\milan.png"
+   Compiling tourist v0.1.0 (D:\Repositories\tourist)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.20s
+2026-02-27T00:05:52.242458Z  INFO fetching cargo artifacts
+2026-02-27T00:05:52.464827Z  INFO calling wasm-bindgen for tourist
+2026-02-27T00:05:52.619869Z  INFO rust build complete
+2026-02-27T00:05:52.621398Z  INFO applying new distribution
+2026-02-27T00:05:52.639880Z  INFO success
+2026-02-27T00:16:17.829180Z  INFO starting build
+2026-02-27T00:16:17.829971Z  INFO spawning asset pipelines
+2026-02-27T00:16:18.031674Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\paris.png"
+2026-02-27T00:16:18.031731Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\brussels.png"
+2026-02-27T00:16:18.031739Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\amsterdam.png"
+2026-02-27T00:16:18.031785Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\milan.png"
+2026-02-27T00:16:18.031838Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\istanbul.png"
+2026-02-27T00:16:18.031857Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-27T00:16:18.031877Z  INFO building tourist
+2026-02-27T00:16:18.032902Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-02-27T00:16:18.036592Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\paris.png"
+2026-02-27T00:16:18.037262Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\istanbul.png"
+2026-02-27T00:16:18.037558Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\brussels.png"
+2026-02-27T00:16:18.037901Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\amsterdam.png"
+2026-02-27T00:16:18.038046Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\milan.png"
+   Compiling tourist v0.1.0 (D:\Repositories\tourist)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.94s
+2026-02-27T00:16:19.070730Z  INFO fetching cargo artifacts
+2026-02-27T00:16:19.298765Z  INFO calling wasm-bindgen for tourist
+2026-02-27T00:16:19.452637Z  INFO rust build complete
+2026-02-27T00:16:19.454139Z  INFO applying new distribution
+2026-02-27T00:16:19.473197Z  INFO success

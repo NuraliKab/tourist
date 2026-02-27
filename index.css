@@ -470,7 +470,7 @@ section {
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: var(--spacing-md) var(--spacing-lg);
+    padding: var(--spacing-xs) var(--spacing-lg);
     background: rgba(2, 6, 23, 0.95);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -508,7 +508,7 @@ section {
   }
 
   .price-amount {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 0;
   }
 
@@ -520,12 +520,17 @@ section {
 
   .whatsapp-button {
     width: auto;
-    padding: var(--spacing-sm) var(--spacing-xl);
+    padding: var(--spacing-xs) var(--spacing-lg);
+    font-size: 0.95rem;
   }
 
   /* Add padding to bottom of main to prevent overlap when scrolled to bottom */
   body {
-    padding-bottom: 90px;
+    padding-bottom: 70px;
+  }
+
+  .hide-on-desktop {
+    display: none;
   }
 }
 

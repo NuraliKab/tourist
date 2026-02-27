@@ -142,11 +142,11 @@ fn destinations_section() -> Html {
 
 fn gallery_section() -> Html {
     let images = vec![
-        "/paris.png",
-        "/brussels.png",
-        "/amsterdam.png",
-        "/milan.png",
-        "/istanbul.png",
+        "/g_paris.png",
+        "/g_belgium.png",
+        "/g_amsterdam.png",
+        "/g_milan.png",
+        "/g_istanbul.png",
     ];
 
     html! {
@@ -242,7 +242,7 @@ fn booking_section() -> Html {
                     <div class="price-person">{ "на одного человека" }</div>
                 </div>
                 
-                <p class="mb-lg" style="color: var(--text-main); font-size: 1.1rem;">
+                <p class="mb-lg hide-on-desktop" style="color: var(--text-main); font-size: 1.1rem; line-height: 1.4;">
                     { "Количество мест ограничено! Бронируйте свое место в этом невероятном приключении прямо сейчас." }
                 </p>
             </div>
