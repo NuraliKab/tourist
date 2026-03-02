@@ -212,20 +212,20 @@ fn included_section() -> Html {
                         <li><i class="fa-solid fa-check" style="color: #10b981; margin-right: 8px; font-size: 0.8em;"></i>{ "Проживание в отелях 3-4* с завтраками" }</li>
                         <li><i class="fa-solid fa-check" style="color: #10b981; margin-right: 8px; font-size: 0.8em;"></i>{ "Трансферы между городами по программе" }</li>
                         <li><i class="fa-solid fa-check" style="color: #10b981; margin-right: 8px; font-size: 0.8em;"></i>{ "Обзорные экскурсии" }</li>
-                        <li><i class="fa-solid fa-check" style="color: #10b981; margin-right: 8px; font-size: 0.8em;"></i>{ "Билет в Диснейленд" }</li>
                     </ul>
                 </div>
                 
-                <div class="glass-panel" style="border-top: 3px solid #ef4444; margin-bottom: var(--spacing-md);">
-                    <h3 style="color: #ef4444; margin-bottom: var(--spacing-md);">
-                        <i class="fa-solid fa-circle-xmark" style="margin-right: 8px;"></i>
+                <div class="glass-panel" style="border-top: 3px solid #94a3b8; margin-bottom: var(--spacing-md);">
+                    <h3 style="color: #cbd5e1; margin-bottom: var(--spacing-md);">
+                        <i class="fa-solid fa-wallet" style="margin-right: 8px; color: #94a3b8;"></i>
                         { "Дополнительно оплачивается" }
                     </h3>
                     <ul style="list-style: none; color: var(--text-muted); padding-left: 0; line-height: 1.8;">
-                        <li><i class="fa-solid fa-xmark" style="color: #ef4444; margin-right: 8px; font-size: 0.8em;"></i>{ "Оформление Шенгенской визы" }</li>
-                        <li><i class="fa-solid fa-xmark" style="color: #ef4444; margin-right: 8px; font-size: 0.8em;"></i>{ "Медицинская страховка" }</li>
-                        <li><i class="fa-solid fa-xmark" style="color: #ef4444; margin-right: 8px; font-size: 0.8em;"></i>{ "Обеды и ужины" }</li>
-                        <li><i class="fa-solid fa-xmark" style="color: #ef4444; margin-right: 8px; font-size: 0.8em;"></i>{ "Личные расходы и сувениры" }</li>
+                        <li><i class="fa-solid fa-plus" style="color: #94a3b8; margin-right: 8px; font-size: 0.8em;"></i>{ "Билет в Диснейленд" }</li>
+                        <li><i class="fa-solid fa-plus" style="color: #94a3b8; margin-right: 8px; font-size: 0.8em;"></i>{ "Оформление Шенгенской визы" }</li>
+                        <li><i class="fa-solid fa-plus" style="color: #94a3b8; margin-right: 8px; font-size: 0.8em;"></i>{ "Медицинская страховка" }</li>
+                        <li><i class="fa-solid fa-plus" style="color: #94a3b8; margin-right: 8px; font-size: 0.8em;"></i>{ "Обеды и ужины" }</li>
+                        <li><i class="fa-solid fa-plus" style="color: #94a3b8; margin-right: 8px; font-size: 0.8em;"></i>{ "Личные расходы и сувениры" }</li>
                     </ul>
                 </div>
             </div>
