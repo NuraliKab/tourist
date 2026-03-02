@@ -8,6 +8,7 @@ fn app() -> Html {
             { overview_section() }
             { destinations_section() }
             { gallery_section() }
+            { guides_section() }
             { itinerary_section() }
             { included_section() }
             { booking_section() }
@@ -232,8 +233,44 @@ fn included_section() -> Html {
     }
 }
 
+fn guides_section() -> Html {
+    let guides = vec![
+        ("Гид 1", "Биография скоро появится..."),
+        ("Гид 2", "Биография скоро появится..."),
+        ("Гид 3", "Биография скоро появится..."),
+    ];
+
+    html! {
+        <section class="guides-section" style="background: var(--bg-dark);">
+            <div class="container">
+                <h2 class="section-title gradient-text">{ "Ваши сопровождающие" }</h2>
+                <p class="text-center mb-xl" style="color: var(--text-muted);">
+                    { "Команда профессионалов, которые сделают ваше путешествие легким и незабываемым" }
+                </p>
+                
+                <div class="guides-grid">
+                    {
+                        guides.into_iter().map(|(name, bio)| {
+                            html! {
+                                <div class="guide-card glass-panel">
+                                    <div class="guide-photo-placeholder">
+                                        <i class="fa-solid fa-user"></i>
+                                    </div>
+                                    <h3 class="guide-name">{ name }</h3>
+                                    <p class="guide-bio">{ bio }</p>
+                                </div>
+                            }
+                        }).collect::<Html>()
+                    }
+                </div>
+            </div>
+        </section>
+    }
+}
+
 fn booking_section() -> Html {
     html! {
+        <>
         <section id="booking" class="booking-section">
             <div class="booking-container booking-info-desktop">
                 <div class="price-box">
@@ -247,7 +284,7 @@ fn booking_section() -> Html {
                 </p>
             </div>
             
-            <div class="booking-action-desktop">
+            <div class="booking-action-desktop hide-on-mobile-unless-scrolled">
                 <a href="https://wa.me/+77013651063" target="_blank" class="whatsapp-button">
                     <i class="fa-brands fa-whatsapp whatsapp-icon"></i>
                     { "Написать в WhatsApp" }
@@ -259,6 +296,21 @@ fn booking_section() -> Html {
                 </div>
             </div>
         </section>
+
+        <div class="mobile-sticky-cta hide-on-desktop">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
+                <div class="price-amount" style="font-size: 1.25rem; margin-bottom: 0;">{ "1 390 000 ₸" }</div>
+                <div class="scarcity-text" style="margin-top: 0; font-size: 0.8rem;">
+                    <i class="fa-solid fa-fire" style="color: #ef4444;"></i>
+                    { "Мало мест" }
+                </div>
+            </div>
+            <a href="https://wa.me/+77013651063" target="_blank" class="whatsapp-button" style="padding: 12px; font-size: 1.05rem;">
+                <i class="fa-brands fa-whatsapp whatsapp-icon"></i>
+                { "Написать в WhatsApp" }
+            </a>
+        </div>
+        </>
     }
 }
 

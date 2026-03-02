@@ -36,6 +36,7 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
+  padding-bottom: 90px;
 }
 
 h1,
@@ -141,9 +142,15 @@ section {
 }
 
 .section-title {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   text-align: center;
   margin-bottom: var(--spacing-xl);
+}
+
+@media (min-width: 768px) {
+  .section-title {
+    font-size: 2.2rem;
+  }
 }
 
 .text-center {
@@ -244,10 +251,16 @@ section {
 }
 
 .hero-title {
-  font-size: 3.5rem;
+  font-size: 2.8rem;
   line-height: 1.1;
   margin-bottom: var(--spacing-md);
   text-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+}
+
+@media (min-width: 768px) {
+  .hero-title {
+    font-size: 3.5rem;
+  }
 }
 
 .hero-dates {
@@ -665,5 +678,87 @@ section {
     grid-column: span 2;
     grid-row: span 2;
     aspect-ratio: auto;
+  }
+}
+
+/* --- Guides Section --- */
+.guides-section {
+  padding-top: var(--spacing-xl);
+  padding-bottom: var(--spacing-xl);
+  background: var(--bg-dark);
+}
+
+.guides-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-lg);
+  margin-top: var(--spacing-lg);
+}
+
+@media (min-width: 768px) {
+  .guides-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.guide-card {
+  text-align: center;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--spacing-lg);
+}
+
+.guide-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--glass-border-gold);
+}
+
+.guide-photo-placeholder {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: var(--bg-darker);
+  border: 2px dashed var(--accent-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: var(--text-muted);
+  margin-bottom: var(--spacing-md);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.guide-name {
+  font-size: 1.5rem;
+  color: var(--text-main);
+  margin-bottom: var(--spacing-sm);
+}
+
+.guide-bio {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+/* --- Mobile Sticky CTA --- */
+.mobile-sticky-cta {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: var(--spacing-md) var(--spacing-lg);
+  background: rgba(2, 6, 23, 0.98);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-top: 1px solid var(--glass-border-gold);
+  z-index: 100;
+  box-shadow: 0 -5px 25px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 1023px) {
+  .hide-on-mobile {
+    display: none !important;
   }
 }
