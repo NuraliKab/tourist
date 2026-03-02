@@ -274,9 +274,13 @@ fn booking_section() -> Html {
         <section id="booking" class="booking-section">
             <div class="booking-container booking-info-desktop">
                 <div class="price-box">
-                    <div class="price-label">{ "Стоимость тура" }</div>
+                    <div class="price-label hide-on-desktop">{ "Стоимость тура" }</div>
                     <div class="price-amount">{ "1 390 000 ₸" }</div>
-                    <div class="price-person">{ "на одного человека" }</div>
+                    <div class="price-person hide-on-desktop">{ "на одного человека" }</div>
+                    <div class="price-details hide-on-mobile">
+                        <div class="price-label">{ "Стоимость тура" }</div>
+                        <div class="price-person">{ "на одного человека" }</div>
+                    </div>
                 </div>
                 
                 <p class="mb-lg hide-on-desktop" style="color: var(--text-main); font-size: 1.1rem; line-height: 1.4;">
