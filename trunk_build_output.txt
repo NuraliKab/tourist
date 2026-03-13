@@ -1,0 +1,44 @@
+2026-03-13T21:56:27.735047Z  INFO Starting trunk 0.18.6
+2026-03-13T21:56:27.735523Z  INFO starting build
+2026-03-13T21:56:27.738072Z  INFO spawning asset pipelines
+2026-03-13T21:56:27.892112Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\paris.png"
+2026-03-13T21:56:27.892145Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\istanbul.png"
+2026-03-13T21:56:27.892158Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\brussels.png"
+2026-03-13T21:56:27.892133Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\milan.png"
+2026-03-13T21:56:27.892128Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\amsterdam.png"
+2026-03-13T21:56:27.892236Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\g_paris.png"
+2026-03-13T21:56:27.892268Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\g_amsterdam.png"
+2026-03-13T21:56:27.892298Z  INFO copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-03-13T21:56:27.892288Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\g_istanbul.png"
+2026-03-13T21:56:27.892276Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\g_milan.png"
+2026-03-13T21:56:27.892264Z  INFO copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\g_belgium.png"
+2026-03-13T21:56:27.892328Z  INFO building tourist
+2026-03-13T21:56:27.902809Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\paris.png"
+2026-03-13T21:56:27.903276Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\brussels.png"
+2026-03-13T21:56:27.903359Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\g_istanbul.png"
+2026-03-13T21:56:27.903523Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\amsterdam.png"
+2026-03-13T21:56:27.903592Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\istanbul.png"
+2026-03-13T21:56:27.903667Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\milan.png"
+2026-03-13T21:56:27.903691Z  INFO finished copying & hashing css path="\\\\?\\D:\\Repositories\\tourist\\index.css"
+2026-03-13T21:56:27.904144Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\g_belgium.png"
+2026-03-13T21:56:27.904643Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\g_paris.png"
+2026-03-13T21:56:27.904753Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\g_milan.png"
+2026-03-13T21:56:27.904951Z  INFO finished copying file path="\\\\?\\D:\\Repositories\\tourist\\public\\g_amsterdam.png"
+    Finished `release` profile [optimized] target(s) in 0.10s
+2026-03-13T21:56:28.075315Z  INFO fetching cargo artifacts
+2026-03-13T21:56:28.262590Z  INFO calling wasm-bindgen for tourist
+2026-03-13T21:56:29.008504Z ERROR error
+error from build pipeline
+
+Caused by:
+    0: HTML build pipeline failed (1 errors), showing first
+    1: error from asset pipeline
+    2: error running wasm-bindgen using executable 'C:\Users\nural\AppData\Local\trunkrs\trunk\cache\wasm-bindgen-0.2.113\wasm-bindgen.exe' with args: '["--target=web", "--out-dir=D:\\Repositories\\tourist\\target\\wasm-bindgen\\release", "--out-name=tourist-e7dca49c867df67f", "D:\\Repositories\\tourist\\target\\wasm32-unknown-unknown\\release\\tourist.wasm", "--no-typescript"]'
+    3: An Application Control policy has blocked this file. (os error 4551)
+Error: error from build pipeline
+
+Caused by:
+    0: HTML build pipeline failed (1 errors), showing first
+    1: error from asset pipeline
+    2: error running wasm-bindgen using executable 'C:\Users\nural\AppData\Local\trunkrs\trunk\cache\wasm-bindgen-0.2.113\wasm-bindgen.exe' with args: '["--target=web", "--out-dir=D:\\Repositories\\tourist\\target\\wasm-bindgen\\release", "--out-name=tourist-e7dca49c867df67f", "D:\\Repositories\\tourist\\target\\wasm32-unknown-unknown\\release\\tourist.wasm", "--no-typescript"]'
+    3: An Application Control policy has blocked this file. (os error 4551)
